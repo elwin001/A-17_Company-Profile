@@ -1,3 +1,176 @@
-.title {
-    color: #a6d885;
+*{
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  font-family: "Arimo", "Open Sans", "Montserrat";
+}
+  
+a {
+  text-decoration: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.wwalk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color:rgba(75, 75, 75, 0.7);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  padding: 10px 0;
+  display: none;
+  visibility: hidden;
+}
+
+.header-logo { 
+  float: left;
+}
+
+.logo img{
+  width: 100px;
+}
+
+.fa {
+  margin-right: 7px;
+}
+
+.header-nav {
+  float: right;
+  margin-top: 15px;
+}
+
+.header-nav a{
+  margin-top: 10px;
+  padding: 10px 25px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.header-nav a:hover{
+  margin: 2px 25px;
+  padding: 10px 0;
+  color: rgb(192, 192, 192);
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.header-nav button{
+  padding: 3px 17px;
+  color: #ffffff;
+  background-color:rgba(75, 75, 75, 0.9);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.header-nav button:hover{
+  padding: 3px 17px;
+  color: #ffffff;
+  background-color:rgba(36, 174, 179, 0.9);
+  border: 1px solid #abe7fa;
+  border-radius: 4px;
+}
+
+.first-section{
+  height: 635px;
+  background-image:linear-gradient(to bottom right, #CD85B3, #4B52BA);
+}
+
+.left-banner{
+  width: 50%;
+  background-color: #4B52BA;
+}
+.left-banner img{
+  width: 900px;
+  margin-left: -250px;
+}
+
+.right-banner{
+  width: 50%;
+  background-color: #4B52BA;
+}
+
+.right-banner h1{
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.right-banner h2{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+@media all and (max-width: 670px) {
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+  
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 100%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+.header-nav{
+  display: none;
+}
+  
+.menu-icon{
+  display: block;
+  visibility: visible;
+}
+
 }
