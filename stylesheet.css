@@ -89,20 +89,20 @@ a {
 .header-nav a:hover{
   margin: 2px 25px;
   padding: 10px 0;
-  color: rgb(192, 192, 192);
-  border-bottom: 1px solid rgb(238, 238, 238);
+  color: rgb(193, 237, 255);
+  border-bottom: 1px solid rgb(193, 237, 255);
 }
 
 .header-nav button{
-  padding: 3px 17px;
+  padding: 7px 24px;
+  margin-left: 30px;
   color: #ffffff;
-  background-color:rgba(75, 75, 75, 0.9);
+  background-color:rgba(75, 75, 75, 0.1);
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
 
 .header-nav button:hover{
-  padding: 3px 17px;
   color: #ffffff;
   background-color:rgba(36, 174, 179, 0.9);
   border: 1px solid #abe7fa;
@@ -114,28 +114,92 @@ a {
   background-image:linear-gradient(to bottom right, #CD85B3, #4B52BA);
 }
 
-.left-banner{
+.left-column{
   width: 50%;
-  background-color: #4B52BA;
+  margin-top: 80px;
 }
-.left-banner img{
-  width: 900px;
+.left-column img{
+  width: 940px;
   margin-left: -250px;
 }
 
-.right-banner{
+.right-column{
   width: 50%;
-  background-color: #4B52BA;
+  max-width: 550px;
+  margin-top: 80px;
+  margin-left: 70px;
 }
 
-.right-banner h1{
+.right-column h1{
   color: #ffffff;
   font-size: 100px;
+  margin-bottom: -35px;
+  margin-left: -5px;
 }
 
-.right-banner h2{
+.right-column h2{
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.right-column p{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.btn-info{
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 10px 45px;
+  color: #ffffff;
+  background-color: rgba(36, 174, 179, 0.1);;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+}
+
+.btn-info:hover{
+  color: #ffffff;
+  background-color:rgba(179, 36, 172, 0.9);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+@media all and (max-width: 1000px) {
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+    
+.col-1 {width: 100%;}
+.col-2 {width: 100%;}
+.col-3 {width: 100%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10 {width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+  
+.header-nav{
+  display: none;
+}
+    
+.menu-icon{
+  display: block;
+  visibility: visible;
+}
+  
 }
 
 @media all and (max-width: 670px) {
