@@ -194,110 +194,210 @@ a {
   line-height: 30px;
 }
 
+.popular-product{
+  padding: 140px 70px;
+}
+
+.popular-product h3{
+  padding: 2px 10px;
+  font-size: 25px;
+}
+
+.product{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.product-list{
+  flex:auto;
+  width: 25%;
+  padding:0 10px;
+}
+
+.popular-product-section{
+  width: 100%;
+  background-color: #6b696c;
+  color: #ffffff;
+}
+
+.product-image{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  /* width: auto; */
+  height: 180px;
+  /* padding: 0 10px; */
+}
+
+.product-image img{
+  /* text-align: center; */
+  display: block;
+  padding: 10px 0;
+  /* max-width: 220px; */
+  max-height: 180px;
+  object-fit: cover;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+}
+
+.product-name h4{
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.product-name p{
+  font-weight: normal;
+}
+
+.offer-section{
+  width: 100%;
+  background-color: #6b696c;
+  color: #ffffff;
+}
+
+.container-offer{
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.btn-offer{
+  padding: 10px 20px;
+  box-shadow: 0 7px #00000050;
+  border-radius: 5px;
+}
+
+.btn-offer:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
 @media all and (max-width: 1180px) {
 
-.grid-wwalk {
-  display: grid;
-  grid-template-columns: 50% 50%;
-} 
+  .grid-wwalk {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  } 
 
-.l-column{
-  margin-top: 80px;
-}
+  .l-column{
+    margin-top: 80px;
+  }
 
-.img-responsive {
-  max-width: 900px;
-  width: 100%;
-  margin-left: 0px;
-}
+  .img-responsive {
+    max-width: 900px;
+    width: 100%;
+    margin-left: 0px;
+  }
 
-.r-column h1{
-  font-size: 50px;
-  margin-left: -3px;
-}
+  .r-column h1{
+    font-size: 50px;
+    margin-left: -3px;
+  }
 
-.r-column h2{
-  color: #ffffff;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+  .r-column h2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
-.r-column p{
-  color: #ffffff;
-  font-size: 15px;
-  line-height: 30px;
-}
+  .r-column p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+  }
 
-.btn-info{
-  font-size: 15px;
-  font-weight: lighter;
-  padding: 7px 35px;
-}
+  .btn-info{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 7px 35px;
+  }
 
-.text-info{
-  margin: 20% 10% 7%;
-  padding: 20px;
-  width: 37%;
-  background-color:rgba(75, 75, 75, 0.4);
-  border-radius: 20px;
-}
+  .text-info{
+    margin: 20% 10% 7%;
+    padding: 20px;
+    width: 37%;
+    background-color:rgba(75, 75, 75, 0.4);
+    border-radius: 20px;
+  }
 
-.text-info h1{
-  font-size: 56px;
-}
+  .text-info h1{
+    font-size: 56px;
+  }
 
-.text-info p{
-  margin-top: 30px;
-  font-size: 20px;
-}
+  .text-info p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .product-list{
+    width: 50%;
+  }
 
 }
 
 @media all and (max-width: 670px) {
 
-.grid-wwalk-1 {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: 5px;
-}
+  .grid-wwalk-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+  }
 
-  .grid-wwalk-2 {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: 5px;
-}
+    .grid-wwalk-2 {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+  }
 
-.header-nav{
-  display: none;
-}
-  
-.menu-icon{
-  display: block;
-  visibility: visible;
-}
+  .header-nav{
+    display: none;
+  }
+    
+  .menu-icon{
+    display: block;
+    visibility: visible;
+  }
 
-.r-column{
-  margin: 0 auto;
-  padding: 10px 10px 10px 25px;
-  background-color: rgba(100, 245, 255, 0.07);
-  border-radius: 10px;
-}
+  .r-column{
+    margin: 0 auto;
+    padding: 10px 10px 10px 25px;
+    background-color: rgba(100, 245, 255, 0.07);
+    border-radius: 10px;
+  }
 
-.text-info{
-  margin: 55% auto;
-  padding: 20px;
-  width: 100%;
-  text-align: center;
-}
+  .text-info{
+    margin: 55% auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
 
-.text-info h1{
-  font-size: 80px;
-}
+  .text-info h1{
+    font-size: 80px;
+  }
 
-.text-info p{
-  font-size: 20px;
-  line-height: 30px;
-}
+  .text-info p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .popular-product{
+    padding: 80px 20px;
+  }
+
+  .product{
+    flex-direction: column;
+  }
+
+  .product-list{
+    margin: 0 auto;
+    /* padding: 0; */
+    width: 100%;
+  }
+
+  .popular-product h3{
+    font-size: 30px;
+  }
 
 }
