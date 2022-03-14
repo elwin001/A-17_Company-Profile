@@ -117,7 +117,7 @@ a {
 .second-section{
   margin: 0 auto;
   padding-bottom: 110px;
-  background-image: url("../html_css_tim A-17/docs/assets/images/pekerja.png");
+  background-image: url("../html_css_A-17/docs/assets/images/pekerja.png");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ a {
 }
 
 .text-info{
-  margin: 15% 15% 3%;
+  margin: 17% 15% 3%;
   padding: 20px;
   width: 37%;
   background-color:rgba(75, 75, 75, 0.4);
