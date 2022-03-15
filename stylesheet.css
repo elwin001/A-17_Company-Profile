@@ -117,7 +117,7 @@ a {
 .second-section{
   margin: 0 auto;
   padding-bottom: 110px;
-  background-image: url("docs/assets/images/pekerja.png");
+  background-image: url("https://user-images.githubusercontent.com/92869765/158110028-cffa81ce-1482-4c3d-bfc1-78c682af7a70.png");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -270,6 +270,42 @@ a {
   box-shadow: none;
   position: relative;
   top: 7px;
+}
+
+.seven-section{
+  background-image: url("docs/assets/images/shoes.jpg");
+  margin: 0 auto;
+  padding-bottom: 110px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  padding: 5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading h1{
+  color: black;
+  font-size: 70px;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.heading h2 {
+  color: black;
+  font-size: 100px;
+  margin-bottom: 30px;
+  margin-right:30px;
+  margin-top:30px;
+  padding:50px;
+  float:left;
+}
+
+.heading p{
+  color:black;
+  font-size:30px;
 }
 
 @media all and (max-width: 1180px) {
