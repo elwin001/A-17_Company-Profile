@@ -234,7 +234,7 @@ a {
   padding: 10px 0;
   /* max-width: 220px; */
   max-height: 180px;
-  object-fit: cover;
+  object-fit: contain;
   /* margin-left: auto;
   margin-right: auto; */
   width: 100%;
@@ -247,6 +247,8 @@ a {
 
 .product-name p{
   font-weight: normal;
+  font-size: 12pt;
+  text-align: justify;
 }
 
 .offer-section{
