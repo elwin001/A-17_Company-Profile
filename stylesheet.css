@@ -51,6 +51,13 @@ a {
   column-gap: 5px;
 }
 
+.grid-wwalk-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 5px;
+}
+
 .menu-icon {
   color: white;
   float: right;
@@ -122,6 +129,24 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.third-section{
+  margin: 0 auto;
+  padding-bottom: 110px;
+  background-color: #C8A47E;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourt-section{
+  margin: 0 auto;
+  padding-bottom: 110px;
+  background-image: url(docs/assets/images/runbackground.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .l-column{
   margin-top: 80px;
@@ -438,4 +463,48 @@ a {
     font-size: 30px;
   }
 
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  transition: 0.3s;
+  padding: 30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 6px 16px;
+}
+
+.video{
+  width: 560px;
+  height: 315px;
+  margin-top: 210px;
+}
+
+.text-wwalk-4{
+  padding-top: 100px;
+  padding-left: : 50px
+  margin: auto;
+}
+
+.text-wwalk-4 h1{
+  padding-top: 50px;
+  color: white;
+  font-size: 55px;
+}
+
+.text-wwalk-4 h2{
+  color: white;
+  font-size: 25px;
+}
+
+.text-wwalk-4 p{
+  color: white;
+  font-size: 20px;
 }
